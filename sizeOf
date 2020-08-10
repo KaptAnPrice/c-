@@ -1,0 +1,20 @@
+//Size Of Data Types
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+   
+    int x,y,z,a;
+    
+    x = sizeof(char);
+    a = sizeof(int);
+    y = sizeof(float);
+    z = sizeof(double);
+    
+    cout<< "Size of char   : " << x << " byte"<<endl;
+    cout<< "Size of int    : " << a << " byte"<<endl;
+    cout<< "Size of float  : " << y << " byte"<<endl;
+    cout<< "Size of double : " << z << " byte"<<endl;
+}
