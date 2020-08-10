@@ -1,2 +1,21 @@
 //Product of Two Numbers
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    float x,y;
+    
+    cout << " Enter two numbers : "<<endl;
+    
+    cin >> x >> y;
+    
+    
+    float z = x*y;
+    
+    cout << "Prodcut = " << z <<endl;
+    
+   
+    
+}
