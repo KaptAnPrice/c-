@@ -13,12 +13,12 @@ int main(){
         cout<<"\nEligible for voting\n";
         
     else if(age==18){
-        cout<<"\nDo you have voter id\n";
+        cout<<"\nDo you have voter id,Y or N?\n";
         cin>>a;
         
-        x = strcmp(a,"no");
-        y = strcmp(a,"No");
-        if(x==0||y==0)
+        x = strcmp(a,"N");
+        
+        if(x==0)
             cout<<"\nApply for a voter id\n";
         else
             cout<<"\nEligible for voting\n";
