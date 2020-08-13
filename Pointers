@@ -1,0 +1,25 @@
+//Accessing array using pointer variable 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a[10] ,i = 0;
+    int *p;
+    p = &a[0];
+    cout<< "Enter elements : ";
+    
+    for(i = 0; i < 5; i++){
+        
+        cin>> *(p+i);
+        
+    }
+    cout<<"You entered : ";
+    
+    for(i = 0; i < 5; i++){
+        
+        cout<<*(p+i)<<endl;
+    
+    }
+    
+}
